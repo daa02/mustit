@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>머스트잇</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bx slider, CSS -->
+    <!-- https://bxslider.com/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <!-- onlineWebFonts -->
+    <link href="//db.onlinewebfonts.com/c/26c12f5cb5e46bd3727ae4b9aa5deb2a?family=Roboto+++NanumBarun" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/c5fe0af8b3c58e7b6126fa5d0b88e624?family=Kenyan+Coffee" rel="stylesheet"
+        type="text/css" />
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- 사용자 js -->
+    <script src="js/main.js"></script>
+    <script src="js/list.js"></script>
+    <script src="js/slider-e.js"></script>
+    <script src="js/data.js"></script>
+    <!-- bx slider JS -->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- fontAwesome -->
+    <script src="https://kit.fontawesome.com/b183068099.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="main_header">
+        <div class="header_wrap">
+            <div id="util_bar">
+                <nav id="mem_menu">
+                    <a href="#">MUSTIT</a>
+                    <a href="#">MUSTIT MEMBERSHIP</a>
+                </nav>
+                <nav id="util_menu">
+                    <a href="#">회원가입/로그인</a>
+                    <a href="#">고객센터</a>
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="#"><i class="fas fa-truck"></i></a>
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                </nav>
+            </div>
+        </div>
+        <div class="logo_wrap">
+            <h1><img src="images/logo.png" alt="MUSTIT">
+                <span>Global Contemporary<br>Shoese Lifestyle Select Shop</span></h1>
+            <form id="search_box">
+                <input type="text" placeholder="반스 어센틱 44 DX">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+        <!-- main GNB -->
+        <nav id="main_gnb">
+            <div class="container">
+                <button id="category_btn" type="submit"><span>ITEM</span></button>
+                <ul class="gnb_list">
+                    <li><a href="#">NEW RELEASE</a></li>
+                    <li><a href="#">BRAND</a></li>
+                    <li><a href="#">MUST IT</a></li>
+                    <li><a href="#">EVENT</a></li>
+                    <li><a href="#">SUPER SALE</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- category menu -->
+        <nav id="category">
+            <div class="container">
+                <dl>
+                    <dt>MAN</dt>
+                    <dd><a href="#">운동화</a></dd>
+                    <dd><a href="#">샌들</a></dd>
+                    <dd><a href="#">부츠</a></dd>
+                    <dd><a href="#">구두</a></dd>
+                    <dd><a href="#">가방</a></dd>
+                    <dd><a href="#">모자 및 용품</a></dd>
+                </dl>
+                <dl>
+                    <dt>WOMAN</dt>
+                    <dd><a href="#">운동화</a></dd>
+                    <dd><a href="#">샌들</a></dd>
+                    <dd><a href="#">부츠</a></dd>
+                    <dd><a href="#">구두</a></dd>
+                    <dd><a href="#">가방</a></dd>
+                    <dd><a href="#">모자 및 용품</a></dd>
+                </dl>
+                <dl>
+                    <dt>KIDS</dt>
+                    <dd><a href="#">운동화</a></dd>
+                    <dd><a href="#">샌들</a></dd>
+                    <dd><a href="#">부츠</a></dd>
+                    <dd><a href="#">구두</a></dd>
+                    <dd><a href="#">모자 및 용품</a></dd>
+                </dl>
+            </div>
+        </nav>
+
+    </header>
+    <a href="#" class="top_btn">TOP</a>
+
+
+    <!-- main banner -->
+    <section id="main_banner">
+        <div class="inner">
+            <div class="bx-slider">
+                <img class="img_responsive" src="images/banner2.jpg" alt="1" title="여기에 배너 설명글을 작성">
+                <img class="img_responsive" src="images/banner1.jpg" alt="2">
+                <img class="img_responsive" src="images/banner3.jpg" alt="3">
+            </div>
+        </div>
+    </section>
+
+    <!-- main contents -->
+    <section id="m-issue">
+        <div class="container">
+            <h2><span>M</span>-ISSUE</h2>
+            <ul class="item_list">
+                <!-- <li><a href="#">
+                        <img src="images/product_01.png" alt="">
+                        <p class="brand"><img src="images/반스로고.png" alt=""></p>
+                        <p class="title">Authentic 44 DX<br>
+                            <span>FLVNAA1U18</span>
+                        </p>
+                        <p class="origin_price"><del>219,000 WON</del><strong>175,200 <span>WON
+                                    [20%]</span></strong>
+                        </p>
+
+                    </a></li>
+                <li><a href="#">
+                        <img src="images/product_01.png" alt="">
+                        <p class="brand"><img src="images/반스로고.png" alt=""></p>
+                        <p class="title">Authentic 44 DX<br>
+                            <span>FLVNAA1U18</span>
+                        </p>
+                        <p class="origin_price"><del>219,000 WON</del><strong>175,200 <span>WON
+                                    [20%]</span></strong>
+                        </p>
+
+                    </a></li>
+                <li><a href="#">
+                        <img src="images/product_01.png" alt="">
+                        <p class="brand"><img src="images/반스로고.png" alt=""></p>
+                        <p class="title">Authentic 44 DX<br>
+                            <span>FLVNAA1U18</span>
+                        </p>
+                        <p class="origin_price"><del>219,000 WON</del><strong>175,200 <span>WON
+                                    [20%]</span></strong>
+                        </p>
+
+                    </a></li>
+                <li><a href="#">
+                        <img src="images/product_01.png" alt="">
+                        <p class="brand"><img src="images/반스로고.png" alt=""></p>
+                        <p class="title">Authentic 44 DX<br>
+                            <span>FLVNAA1U18</span>
+                        </p>
+                        <p class="origin_price"><del>219,000 WON</del><strong>175,200 <span>WON
+                                    [20%]</span></strong>
+                        </p>
+
+                    </a></li>
+                <li><a href="#">
+                        <img src="images/product_01.png" alt="">
+                        <p class="brand"><img src="images/반스로고.png" alt=""></p>
+                        <p class="title">Authentic 44 DX<br>
+                            <span>FLVNAA1U18</span>
+                        </p>
+                        <p class="origin_price"><del>219,000 WON</del><strong>175,200 <span>WON
+                                    [20%]</span></strong>
+                        </p>
+
+                    </a></li>
+                <li><a href="#">
+                        <img src="images/product_01.png" alt="">
+                        <p class="brand"><img src="images/반스로고.png" alt=""></p>
+                        <p class="title">Authentic 44 DX<br>
+                            <span>FLVNAA1U18</span>
+                        </p>
+                        <p class="origin_price"><del>219,000 WON</del><strong>175,200 <span>WON
+                                    [20%]</span></strong>
+                        </p>
+
+                    </a></li>
+                <li><a href="#">
+                        <img src="images/product_01.png" alt="">
+                        <p class="brand"><img src="images/반스로고.png" alt=""></p>
+                        <p class="title">Authentic 44 DX<br>
+                            <span>FLVNAA1U18</span>
+                        </p>
+                        <p class="origin_price"><del>219,000 WON</del><strong>175,200 <span>WON
+                                    [20%]</span></strong>
+                        </p>
+
+                    </a></li>
+                <li><a href="#">
+                        <img src="images/product_01.png" alt="">
+                        <p class="brand"><img src="images/반스로고.png" alt=""></p>
+                        <p class="title">Authentic 44 DX<br>
+                            <span>FLVNAA1U18</span>
+                        </p>
+                        <p class="origin_price"><del>219,000 WON</del><strong>175,200 <span>WON
+                                    [20%]</span></strong>
+                        </p>
+
+                    </a></li> -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- recommended brand -->
+    <section id="brand">
+        <div class="container">
+            <h2>BRAND ISSUE</h2>
+            <div class="brand_slider">
+                <div class="brand_sliders">
+                    <img src="images/b-banner1.jpg" alt="1">
+                    <img src="images/b-banner2.jpg" alt="2">
+                    <img src="images/b-banner3.jpg" alt="3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer_wrap">
+        <footer id="main_footer">
+            <div id="cons">
+                <h3>고객상담실 <span>070-4220-3200</span></h3>
+                <p>상담시간 : 오전 10시 ~ 오후 5시(주말,공휴일 휴무)  점심시간 : 정오 12시 ~ 오후 1시<br>A/S CENTER : 080-999-0456 (평일 오전 10시 ~ 오후 6시)</p>
+            </div>
+            <p id="per"><a href="#">사업자정보확인</a> <a href="#"><strong>개인정보처리방침</strong></a> <a href="#">이용약관</a></p>
+            <div id="company">
+                <img src="images/f_logo.png" alt="footer logos">
+                <p>상호명 : (주)머스트잇 | 대표자명 : 최운식, 김일규 | 사업자등록번호: 113-85-19030 | 정보보호 책임자 : 최운식<br>
+                    대표전화 070-4220-3200 | E-mail webmaster@folderstyle.com | 통신판매업신고 : 통신판매업신고 금천구청 제2005-01053<br>
+                    사업장 주소 : 서울특별시 금천구 가산디지털1로 159 머스트잇</p>
+                    <p class="copyright">COPYRIGHT &copy; 2019 MUSTIT KOREA INC. ALL RIGHTS RESERVED.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
