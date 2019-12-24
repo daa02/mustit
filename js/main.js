@@ -16,6 +16,25 @@ $(document).ready(function () {
         });
     });
 
+    var width = 1115; // 이미지 width값
+    var num = 1; // 이미지 번호
+    var left = -(width*num)+'px';
+    $(function(){
+        
+        setInterval(function(){
+            // 마지막 이미지면 처음으로
+            if(num>2) num=0;
+            
+            // 이미지 번호로 이동(-이미지크기*이미지번호)
+            left = -(width*num)+'px';
+
+            console.log(num);
+            $('.brand_sliders').css('margin-left',left);
+            
+            num++;
+        },4000);
+    });
+
     // category menu
     // $('#category_btn').click(function () {
     //     $('#category').slideToggle();
