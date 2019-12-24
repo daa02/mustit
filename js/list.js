@@ -27,9 +27,11 @@ function show_product(el, category_name, list_num) {
       list += '<span class="title">' + buff[i].title + '</span>'
   
       if(buff[i].origin_price == "") {
-        kwd = "&nbsp;";
+        kwd = "";
         origin_price = "";
-      } else { origin_price = buff[i].origin_price;}
+      // } else if(buff[i].origin_price != "") {
+      //   $('.origin_price').css('color','red');
+      }else { origin_price = buff[i].origin_price;}
   
       list += '<del class="origin_price">' + origin_price + kwd + '</del>';
       list += '<strong class="sale_price">' + buff[i].sale_price + ' won</strong>';
@@ -39,7 +41,7 @@ function show_product(el, category_name, list_num) {
     item_list.empty();
     item_list.append(list); // 상품목록 추가
     buff = [];  // 버퍼 초기화
-    $('.origin_price').css('text-decoration', 'none');
+    // $('.origin_price').css('text-decoration', 'none');s
   }
   
   
