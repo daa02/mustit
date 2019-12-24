@@ -63,7 +63,7 @@ body {
 h2{
     font-size: 45px;
     letter-spacing: 0.05em;
-    font-family: 'Kenyan Coffee', sans-serif;
+    font-family: 'Kenyan Coffee', serif;
     text-align: center;
     padding-bottom: 50px;
 }
@@ -183,7 +183,7 @@ h2>span{
 
 #main_gnb {
     background: #fff;
-    font-family: 'Kenyan Coffee', sans-serif;
+    font-family: 'Kenyan Coffee', serif;
     font-size: 24px;
     letter-spacing: 0.05em;
     height: 52px;
@@ -207,7 +207,7 @@ h2>span{
 }
 
 #category_btn>span {
-    font-family: 'Kenyan Coffee', sans-serif;
+    font-family: 'Kenyan Coffee', serif;
     font-size: 24px;
     letter-spacing: 0.05em;
 }
